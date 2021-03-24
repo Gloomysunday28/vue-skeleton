@@ -24,13 +24,16 @@ export default {
     }, slots) : slots
   },
   methods: {
+    getAbstractComponent(vnode) {
+      return vnode && vnode.componentOptions && vnode.componentOptions.Ctor.options.abstract
+    },
     handlerPrefix(slots, handler, init = true) {
       slots.forEach(slot => {
         var children = slot.children || (slot.componentOptions || {}).children || ((slot.componentInstance || {})._vnode || {}).children
         if (slot.data) {
           if (!slot.componentOptions) {
             !init && handler(slot)
-          } else if (!this.$hoc_utils.getAbstractComponent(slot)) {
+          } else if (!this.getAbstractComponent(slot)) {
             ;(function(slot) {
               const handlerComponent = this.handlerComponent.bind(this, slot, handler, init)
               const insert = (slot.data.hook || {}).insert
