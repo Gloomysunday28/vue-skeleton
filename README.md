@@ -26,6 +26,15 @@
     min-height: .3rem;
     min-width: 1rem;
   }
+  
+  @keyframes skeleton-loading {
+    from {
+      background-position: 100% 50%;
+    }
+    to {
+      background-position: 0 50%;
+    }
+  }
 ```
 
 # Props
