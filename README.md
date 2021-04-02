@@ -45,4 +45,4 @@ skeletPrefix | String | 骨架屏ClassName(默认为gm-skeleton)
 init | Boolean | 默认第一层的子元素不添加骨架屏名字，因为背景色一般都会设置在根元素上，所以这里不做骨架屏处理，默认为true
 
 # 完整分析
-(思路原理分析)[https://juejin.cn/post/6943020826627145735]
+[思路原理分析](https://juejin.cn/post/6943020826627145735)
