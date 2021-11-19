@@ -54,4 +54,4 @@ https://gloomysunday28.github.io/vue-source/
 https://github.com/Gloomysunday28/vue-ts2cfa
 
 # 公众号: 前端马丁
-
+<img src="./WechatIMG27.jpeg"/>
