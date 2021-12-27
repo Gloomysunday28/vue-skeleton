@@ -47,6 +47,9 @@ init | Boolean | 默认第一层的子元素不添加骨架屏名字，因为背
 # 完整分析
 [思路原理分析](https://juejin.cn/post/6943020826627145735)
 
+# 个人微信
+IAmFineThanksMartin
+
 # 另附Vue2.x源码解析文档
 https://gloomysunday28.github.io/vue-source/
 
